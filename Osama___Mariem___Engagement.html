@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- =====================================================================
+       WHATSAPP & SOCIAL MEDIA PREVIEW METADATA
+       ===================================================================== -->
+  <title>Osama &amp; Mariem | Engagement</title>
+  <meta name="description" content="11 December 2026 • Venue: Family Park, El Rehab" />
+  <meta property="og:title" content="Osama &amp; Mariem | Engagement" />
+  <meta property="og:description" content="11 December 2026 • Venue: Family Park, El Rehab" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#f7f2e8" />
+
+  <!-- Elegant Editorial & Script Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#f7f2e8',
+            cardCream: '#f8f4ec',
+            burgundy: '#9b4d5d',
+            burgundyLight: '#b86b7a',
+            sage: '#6d7856',
+            sageLight: '#879171',
+            sageDark: '#4a5338',
+            ink: '#36382e',
+            goldAccent: '#b89768',
+          },
+          fontFamily: {
+            script: ['"Great Vibes"', 'cursive'],
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Subtle paper grain & smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #e6dfd3;
+      color: #36382e;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .paper-texture {
+      background-color: #f7f2e8;
+      background-image:
+        radial-gradient(rgba(155, 77, 93, 0.03) 1px, transparent 0),
+        radial-gradient(rgba(109, 120, 86, 0.04) 1px, transparent 0);
+      background-size: 24px 24px;
+      background-position: 0 0, 12px 12px;
+    }
+
+    /* Vintage Etched Woodland / Botanical Texture */
+    .sage-etching {
+      background-color: #788360;
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          rgba(54, 56, 46, 0.08) 0px,
+          rgba(54, 56, 46, 0.08) 1px,
+          transparent 1px,
+          transparent 4px
+        ),
+        linear-gradient(180deg, #86916e 0%, #6d7856 45%, #5b6546 100%);
+    }
+
+    /* Arch Frame matching screenshot */
+    .arch-frame {
+      border-radius: 150px 150px 6px 6px;
+      box-shadow: 0 14px 32px rgba(74, 83, 56, 0.14);
+    }
+
+    /* Scroll reveal animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.85s ease-out, transform 0.85s ease-out;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Gentle pulse ring for floating music button */
+    @keyframes softPulse {
+      0%, 100% { box-shadow: 0 6px 20px rgba(74, 83, 56, 0.35), 0 0 0 0 rgba(109, 120, 86, 0.45); }
+      50% { box-shadow: 0 6px 20px rgba(74, 83, 56, 0.35), 0 0 0 10px rgba(109, 120, 86, 0); }
+    }
+
+    .music-playing {
+      animation: softPulse 2.4s infinite;
+    }
+  </style>
+</head>
+<body class="flex justify-center min-h-screen">
+
+  <!-- Main Mobile-First Invitation Container (480px max-width centered on desktop) -->
+  <div id="invitationRoot" class="w-full max-w-[480px] bg-cream shadow-2xl overflow-hidden relative">
+
+    <!-- =====================================================================
+         SECTION 1: HERO, FLORAL LINE-ART & PHOTO ARCH (image_241c73.jpg)
+         ===================================================================== -->
+    <section class="paper-texture relative pt-10 pb-12 px-5 overflow-hidden">
+
+      <!-- Top Spaced Serif Date -->
+      <div class="text-center mb-5 reveal">
+        <span class="font-serif text-sm tracking-[0.32em] text-burgundy font-medium">
+          11.12.2026
+        </span>
+      </div>
+
+      <!-- Couple Script Names -->
+      <div class="text-center relative z-10 reveal">
+        <h1 class="font-script text-[3.5rem] sm:text-[4rem] text-burgundy leading-[0.95] font-normal select-none">
+          Osama <span class="font-serif text-[2.1rem] text-burgundyLight italic align-middle ml-1">&amp;</span>
+          <span class="block mt-1">Mariem</span>
+        </h1>
+        <p class="font-serif text-base sm:text-lg tracking-[0.28em] text-burgundy uppercase mt-3 mb-7">
+          ENGAGEMENT
+        </p>
+      </div>
+
+      <!-- Left Burgundy Line-Art Lily Botanical Illustration -->
+      <svg class="absolute left-[-28px] top-[155px] w-[145px] h-[340px] pointer-events-none opacity-80" viewBox="0 0 160 380" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g stroke="#9b4d5d" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+          <!-- Main Stem -->
+          <path d="M18 370 C35 280, 22 180, 48 95" />
+          <path d="M32 230 C62 195, 82 155, 92 115" />
+          <!-- Upper Lily Blossom -->
+          <path d="M55 95 C42 62, 18 52, 8 66 C22 76, 40 85, 55 95 Z" />
+          <path d="M55 95 C52 55, 68 28, 86 24 C84 48, 72 74, 55 95 Z" />
+          <path d="M55 95 C82 72, 118 68, 134 82 C112 94, 82 98, 55 95 Z" />
+          <path d="M55 95 C86 102, 112 126, 118 148 C96 138, 72 118, 55 95 Z" />
+          <path d="M55 95 C38 116, 18 134, 6 138 C16 116, 36 102, 55 95 Z" />
+          <!-- Stamens -->
+          <path d="M55 95 C72 80, 88 68, 98 58" />
+          <circle cx="99" cy="57" r="2.2" fill="#9b4d5d" />
+          <path d="M55 95 C76 88, 96 86, 108 82" />
+          <circle cx="110" cy="82" r="2.2" fill="#9b4d5d" />
+          <path d="M55 95 C68 68, 72 52, 74 42" />
+          <circle cx="74" cy="40" r="2" fill="#9b4d5d" />
+          <!-- Leaves -->
+          <path d="M28 190 C54 176, 78 182, 92 196 C70 202, 46 198, 28 190 Z" />
+          <path d="M24 250 C52 242, 74 254, 84 270 C62 270, 42 262, 24 250 Z" />
+          <!-- Lower Blossom -->
+          <path d="M36 310 C62 288, 92 292, 106 308 C82 316, 58 316, 36 310 Z" />
+          <path d="M36 310 C56 322, 76 346, 78 366 C58 354, 44 334, 36 310 Z" />
+          <path d="M36 310 C42 280, 56 262, 72 258 C66 280, 52 296, 36 310 Z" />
+        </g>
+      </svg>
+
+      <!-- Right Burgundy Line-Art Lily Botanical Illustration (Mirrored) -->
+      <svg class="absolute right-[-28px] top-[155px] w-[145px] h-[340px] pointer-events-none opacity-80 scale-x-[-1]" viewBox="0 0 160 380" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g stroke="#9b4d5d" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 370 C35 280, 22 180, 48 95" />
+          <path d="M32 230 C62 195, 82 155, 92 115" />
+          <path d="M55 95 C42 62, 18 52, 8 66 C22 76, 40 85, 55 95 Z" />
+          <path d="M55 95 C52 55, 68 28, 86 24 C84 48, 72 74, 55 95 Z" />
+          <path d="M55 95 C82 72, 118 68, 134 82 C112 94, 82 98, 55 95 Z" />
+          <path d="M55 95 C86 102, 112 126, 118 148 C96 138, 72 118, 55 95 Z" />
+          <path d="M55 95 C38 116, 18 134, 6 138 C16 116, 36 102, 55 95 Z" />
+          <path d="M55 95 C72 80, 88 68, 98 58" />
+          <circle cx="99" cy="57" r="2.2" fill="#9b4d5d" />
+          <path d="M55 95 C76 88, 96 86, 108 82" />
+          <circle cx="110" cy="82" r="2.2" fill="#9b4d5d" />
+          <path d="M28 190 C54 176, 78 182, 92 196 C70 202, 46 198, 28 190 Z" />
+          <path d="M24 250 C52 242, 74 254, 84 270 C62 270, 42 262, 24 250 Z" />
+          <path d="M36 310 C62 288, 92 292, 106 308 C82 316, 58 316, 36 310 Z" />
+          <path d="M36 310 C56 322, 76 346, 78 366 C58 354, 44 334, 36 310 Z" />
+        </g>
+      </svg>
+
+      <!-- Centerpiece Arched Couple Portrait Frame -->
+      <div class="relative z-10 mx-auto w-[245px] sm:w-[270px] reveal">
+        <div class="arch-frame overflow-hidden border-[3px] border-white/80 bg-[#ece4d5] aspect-[3/3.7] relative group">
+          <!-- Default Romantic Couple Portrait (with graceful SVG fallback & custom upload option) -->
+          <img
+            id="couplePhoto"
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=80"
+            alt="Osama and Mariem Engagement Portrait"
+            class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+            onerror="this.style.display='none'; document.getElementById('svgPortraitFallback').classList.remove('hidden');"
+          />
+
+          <!-- Clean Illustrated Fallback if Offline -->
+          <div id="svgPortraitFallback" class="hidden w-full h-full flex flex-col items-center justify-center bg-gradient-to-b from-[#f3ebe0] to-[#e4d7c5] p-6 text-center">
+            <div class="w-24 h-24 rounded-full border border-burgundy/40 flex items-center justify-center mb-3 bg-white/60">
+              <span class="font-serif text-3xl text-burgundy font-semibold tracking-tighter">O &amp; M</span>
+            </div>
+            <p class="font-script text-3xl text-burgundy">Osama &amp; Mariem</p>
+            <p class="font-serif text-xs uppercase tracking-[0.2em] text-ink/70 mt-1">11 • 12 • 2026</p>
+          </div>
+
+          <!-- Discreet Photo Swap Button for Couple Customization -->
+          <label
+            for="photoUploadInput"
+            title="Tap to replace with your own photo"
+            class="no-export absolute bottom-2.5 right-2.5 bg-cream/90 hover:bg-white text-ink/80 backdrop-blur-sm text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-full shadow cursor-pointer border border-burgundy/20 transition opacity-85 hover:opacity-100"
+          >
+            Change Photo
+          </label>
+          <input type="file" id="photoUploadInput" accept="image/*" class="hidden" />
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SECTION 2: TORN PAPER SEAM & PINK PEONIES BOUQUET (image_91eaea.jpg)
+         ===================================================================== -->
+    <div class="relative z-20 -mt-3">
+      <!-- Torn Cream Paper Edge SVG -->
+      <div class="w-full overflow-hidden leading-none bg-transparent">
+        <svg class="w-full h-[38px] block" viewBox="0 0 480 42" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Shadow edge under torn paper -->
+          <path d="M0,0 L480,0 L480,22 L455,27 L430,21 L402,29 L374,23 L342,32 L310,25 L278,34 L245,26 L212,35 L180,24 L145,33 L112,25 L80,31 L48,22 L20,28 L0,21 Z" fill="rgba(54,56,46,0.18)" />
+          <!-- Crisp Torn Cream Edge -->
+          <path d="M0,0 L480,0 L480,18 L462,22 L444,17 L424,23 L405,19 L384,25 L362,18 L340,26 L318,20 L295,27 L270,19 L246,27 L220,21 L195,28 L170,19 L142,26 L116,20 L88,26 L62,18 L34,23 L14,17 L0,20 Z" fill="#f7f2e8" />
+        </svg>
+      </div>
+
+      <!-- Lush Pink Peonies & Green Leaves Bouquet Resting on the Right Seam -->
+      <svg class="w-[235px] sm:w-[260px] h-auto absolute right-[-10px] -top-[72px] pointer-events-none drop-shadow-md" viewBox="0 0 280 185" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Foliage Leaves -->
+        <g fill="#5b6f3d" stroke="#3f4f28" stroke-width="1">
+          <path d="M72 132 C42 126, 20 134, 10 144 C30 148, 54 144, 72 132 Z" />
+          <path d="M84 114 C56 100, 32 104, 18 112 C38 120, 62 122, 84 114 Z" />
+          <path d="M135 142 C118 162, 124 176, 134 182 C144 170, 146 154, 135 142 Z" />
+          <path d="M185 146 C188 166, 202 178, 214 180 C212 164, 200 152, 185 146 Z" />
+          <path d="M235 135 C255 146, 270 144, 278 138 C266 128, 250 126, 235 135 Z" />
+          <path d="M168 62 C156 38, 166 20, 178 14 C184 30, 182 48, 168 62 Z" />
+        </g>
+        <!-- Left Main Pink Peony -->
+        <g transform="translate(95, 112)">
+          <circle cx="0" cy="0" r="42" fill="#d97b93" />
+          <path d="M-36,-12 C-42,-32 -18,-44 0,-36 C18,-44 42,-32 36,-12 C46,6 32,34 10,36 C-8,44 -34,34 -36,12 C-46,2 -42,-8 -36,-12 Z" fill="#e58fa5" />
+          <path d="M-26,-8 C-28,-24 -10,-32 0,-24 C12,-32 28,-22 24,-6 C32,8 20,24 4,24 C-10,28 -26,18 -26,-8 Z" fill="#f0a8ba" />
+          <path d="M-15,-4 C-14,-16 0,-20 8,-12 C18,-14 20,2 10,10 C2,18 -14,14 -15,-4 Z" fill="#c7637d" />
+          <circle cx="0" cy="-2" r="8" fill="#f6c1ce" />
+        </g>
+        <!-- Top Right Peony -->
+        <g transform="translate(185, 76)">
+          <circle cx="0" cy="0" r="38" fill="#d4728b" />
+          <path d="M-32,-10 C-36,-28 -14,-38 0,-30 C16,-38 36,-28 32,-10 C40,6 28,30 8,32 C-8,38 -30,28 -32,10 Z" fill="#e690a6" />
+          <path d="M-20,-6 C-22,-20 -6,-26 2,-18 C12,-24 24,-16 20,-4 C26,8 16,20 2,20 C-10,22 -22,12 -20,-6 Z" fill="#f3b2c2" />
+          <circle cx="0" cy="-2" r="7" fill="#b8546e" />
+        </g>
+        <!-- Right Peony -->
+        <g transform="translate(242, 114)">
+          <circle cx="0" cy="0" r="34" fill="#d97b93" />
+          <path d="M-28,-8 C-30,-24 -12,-34 0,-26 C14,-34 30,-24 28,-8 C34,6 24,26 6,28 C-8,32 -26,24 -28,8 Z" fill="#eb9bb0" />
+          <circle cx="-2" cy="-2" r="11" fill="#c7637d" />
+          <circle cx="-1" cy="-3" r="5" fill="#f7c7d3" />
+        </g>
+        <!-- Small Peony Buds -->
+        <g transform="translate(128, 56)">
+          <circle cx="0" cy="0" r="14" fill="#df8299" />
+          <path d="M-12,4 C-10,14 10,14 12,4 C6,10 -6,10 -12,4 Z" fill="#5b6f3d" />
+        </g>
+        <g transform="translate(174, 134)">
+          <circle cx="0" cy="0" r="16" fill="#e58fa5" />
+          <path d="M-14,5 C-10,16 10,16 14,5 C7,12 -7,12 -14,5 Z" fill="#5b6f3d" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- =====================================================================
+         SECTION 3 & 4: SAGE WOODLAND BACKGROUND, DEAR CARD & EVENT DETAILS
+         ===================================================================== -->
+    <section class="sage-etching relative pt-16 pb-14 px-5 sm:px-7">
+
+      <!-- Subtle Botanical Tree / Woodland Silhouette Overlay -->
+      <svg class="absolute inset-0 w-full h-full pointer-events-none opacity-25" viewBox="0 0 480 900" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g stroke="#2d3322" stroke-width="1.5">
+          <!-- Left Tree Branches -->
+          <path d="M-10 380 C40 350, 75 310, 110 260" />
+          <path d="M45 340 C75 345, 105 335, 130 320" />
+          <path d="M-10 560 C35 530, 65 495, 95 450" />
+          <!-- Right Tree Trunk & Canopy -->
+          <path d="M465 900 C455 720, 462 520, 445 310" stroke-width="6" />
+          <path d="M452 460 C410 420, 370 390, 320 375" stroke-width="2.5" />
+          <path d="M456 360 C415 315, 385 275, 340 245" stroke-width="2.5" />
+          <!-- Delicate Leaf Clusters -->
+          <circle cx="115" cy="255" r="18" fill="#3a422c" opacity="0.45" />
+          <circle cx="135" cy="272" r="14" fill="#3a422c" opacity="0.45" />
+          <circle cx="330" cy="370" r="22" fill="#3a422c" opacity="0.45" />
+          <circle cx="350" cy="240" r="20" fill="#3a422c" opacity="0.45" />
+        </g>
+      </svg>
+
+      <!-- CARD 1: "Dear Friends & Family" Invitation Card (image_91eaea.jpg) -->
+      <div class="relative z-10 bg-cardCream rounded-[34px] px-6 sm:px-9 py-11 shadow-[0_18px_40px_rgba(36,41,27,0.28)] text-center reveal">
+        <!-- Tiny decorative bird flourish matching screenshot -->
+        <svg class="w-5 h-3 text-ink/50 mx-auto mb-1 -ml-2" viewBox="0 0 24 12" fill="none" stroke="currentColor" stroke-width="1.3">
+          <path d="M2 8 Q7 3 12 8 Q17 3 22 8" stroke-linecap="round" />
+        </svg>
+
+        <h2 class="font-script text-[3.6rem] sm:text-[4rem] text-ink leading-none mb-2">
+          Dear
+        </h2>
+
+        <p class="font-serif text-sm sm:text-base tracking-[0.22em] text-ink uppercase font-medium mb-7">
+          FRIENDS &amp; FAMILY!
+        </p>
+
+        <div class="font-serif text-[14px] sm:text-[15px] leading-[2.05] tracking-[0.16em] text-ink/90 uppercase mb-7">
+          WE INVITE YOU<br />
+          TO CELEBRATE<br />
+          THE MOST SPECIAL DAY<br />
+          IN OUR LIVES &ndash;<br />
+          OUR ENGAGEMENT
+        </div>
+
+        <!-- Large Italic Serif Date -->
+        <div class="font-serif italic text-[2.45rem] sm:text-[2.8rem] text-ink tracking-[0.06em] my-6">
+          11.12.2026
+        </div>
+
+        <div class="font-serif text-[13px] sm:text-[14px] leading-[1.95] tracking-[0.15em] text-ink/90 uppercase mt-6">
+          WE WILL BE SO HAPPY<br />
+          TO SHARE THIS UNFORGETTABLE DAY<br />
+          WITH YOU!
+        </div>
+      </div>
+
+      <!-- CARD 2: Time, Venue, Countdown, Map & RSVP (image_b1d52d.jpg & image_48d9e5.jpg) -->
+      <div class="relative z-10 bg-cardCream rounded-[34px] px-6 sm:px-8 py-9 mt-7 shadow-[0_18px_40px_rgba(36,41,27,0.28)] text-center reveal">
+        <p class="font-serif text-xs tracking-[0.28em] text-burgundy uppercase mb-4">
+          Save The Date &amp; Time
+        </p>
+
+        <!-- Date & Time Split Box -->
+        <div class="flex items-center justify-center border-y border-goldAccent/40 py-4 my-3">
+          <div class="flex-1 text-center">
+            <div class="font-serif text-xs tracking-[0.22em] text-ink/75 uppercase">Friday</div>
+            <div class="font-serif text-3xl sm:text-4xl font-semibold text-burgundy my-0.5">11</div>
+            <div class="font-serif text-xs tracking-[0.2em] text-ink/75 uppercase">December 2026</div>
+          </div>
+          <div class="w-[1px] h-14 bg-goldAccent/45"></div>
+          <div class="flex-1 text-center">
+            <div class="font-serif text-xs tracking-[0.22em] text-ink/75 uppercase">At</div>
+            <div class="font-serif text-2xl sm:text-3xl font-semibold text-burgundy my-1">7:00 PM</div>
+            <div class="font-serif text-[11px] tracking-[0.18em] text-ink/65 uppercase">Evening</div>
+          </div>
+        </div>
+
+        <!-- Live Countdown Timer -->
+        <div class="grid grid-cols-4 gap-2 sm:gap-3 my-6" id="countdownGrid">
+          <div class="bg-cream border border-goldAccent/30 rounded-2xl py-2.5 px-1">
+            <div id="cdDays" class="font-serif text-2xl font-semibold text-sageDark">00</div>
+            <div class="text-[9px] uppercase tracking-[0.16em] text-ink/65">Days</div>
+          </div>
+          <div class="bg-cream border border-goldAccent/30 rounded-2xl py-2.5 px-1">
+            <div id="cdHours" class="font-serif text-2xl font-semibold text-sageDark">00</div>
+            <div class="text-[9px] uppercase tracking-[0.16em] text-ink/65">Hours</div>
+          </div>
+          <div class="bg-cream border border-goldAccent/30 rounded-2xl py-2.5 px-1">
+            <div id="cdMins" class="font-serif text-2xl font-semibold text-sageDark">00</div>
+            <div class="text-[9px] uppercase tracking-[0.16em] text-ink/65">Mins</div>
+          </div>
+          <div class="bg-cream border border-goldAccent/30 rounded-2xl py-2.5 px-1">
+            <div id="cdSecs" class="font-serif text-2xl font-semibold text-sageDark">00</div>
+            <div class="text-[9px] uppercase tracking-[0.16em] text-ink/65">Secs</div>
+          </div>
+        </div>
+
+        <!-- Venue Details -->
+        <div class="mt-4 mb-6">
+          <div class="font-serif text-sm sm:text-base tracking-[0.26em] text-ink uppercase font-semibold">
+            FAMILY PARK
+          </div>
+          <div class="font-script text-[2.2rem] text-burgundy leading-tight my-0.5">
+            &mdash; Lucinda &mdash;
+          </div>
+          <div class="font-serif text-xs sm:text-sm tracking-[0.28em] text-ink/80 uppercase">
+            EL REHAB
+          </div>
+        </div>
+
+        <!-- Google Maps Location Button -->
+        <a
+          href="https://maps.google.com/?q=Family+Park+El+Rehab+Cairo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center gap-2 w-full py-3.5 px-6 rounded-full bg-sage hover:bg-sageDark text-white text-xs font-medium uppercase tracking-[0.2em] transition-colors shadow-md"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          Open Location on Google Maps
+        </a>
+
+        <!-- Divider -->
+        <div class="border-t border-goldAccent/30 my-7"></div>
+
+        <!-- Interactive RSVP Section -->
+        <div class="text-left">
+          <h3 class="font-script text-3xl text-burgundy text-center mb-1">Confirm Attendance</h3>
+          <p class="font-serif text-xs text-center uppercase tracking-[0.2em] text-ink/70 mb-4">
+            Kindly RSVP Before December 1st
+          </p>
+
+          <form id="rsvpForm" class="space-y-3">
+            <div>
+              <label for="guestName" class="block text-[10px] uppercase tracking-[0.18em] text-ink/75 mb-1">Your Full Name</label>
+              <input
+                type="text"
+                id="guestName"
+                required
+                placeholder="e.g. Ahmed Hassan"
+                class="w-full px-4 py-2.5 rounded-xl bg-cream border border-goldAccent/40 text-sm text-ink focus:outline-none focus:border-burgundy"
+              />
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label for="guestCount" class="block text-[10px] uppercase tracking-[0.18em] text-ink/75 mb-1">Number of Guests</label>
+                <select
+                  id="guestCount"
+                  class="w-full px-3 py-2.5 rounded-xl bg-cream border border-goldAccent/40 text-sm text-ink focus:outline-none focus:border-burgundy"
+                >
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5+">5+ Family</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="attendingStatus" class="block text-[10px] uppercase tracking-[0.18em] text-ink/75 mb-1">Will You Attend?</label>
+                <select
+                  id="attendingStatus"
+                  class="w-full px-3 py-2.5 rounded-xl bg-cream border border-goldAccent/40 text-sm text-ink focus:outline-none focus:border-burgundy"
+                >
+                  <option value="Joyfully Attending">Joyfully Yes</option>
+                  <option value="Regretfully Unable">Sorry, Can't Make It</option>
+                </select>
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              class="w-full mt-2 py-3.5 px-6 rounded-full bg-burgundy hover:bg-[#823d4b] text-white text-xs font-medium uppercase tracking-[0.2em] transition-colors shadow-md cursor-pointer"
+            >
+              Send RSVP via WhatsApp
+            </button>
+          </form>
+
+          <!-- Instant Inline Confirmation Toast -->
+          <div id="rsvpToast" class="hidden mt-3 p-3 rounded-xl bg-sage/15 border border-sage/30 text-center text-xs text-sageDark font-medium"></div>
+        </div>
+      </div>
+
+      <!-- Subtle GitHub Export Helper Bar at Very Bottom -->
+      <div id="githubHelperBar" class="no-export relative z-10 mt-8 pt-4 border-t border-white/20 text-center">
+        <button
+          type="button"
+          id="downloadHtmlBtn"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cream/90 hover:bg-white text-ink text-[11px] font-medium uppercase tracking-[0.14em] shadow transition cursor-pointer"
+        >
+          <svg class="w-3.5 h-3.5 text-sageDark" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V3" />
+          </svg>
+          Download index.html for GitHub
+        </button>
+        <p id="downloadToast" class="hidden text-[11px] text-cream mt-2"></p>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         FLOATING SAGE-GREEN CIRCULAR MUSIC BUTTON (image_241c73.jpg & image_91eaea.jpg)
+         ===================================================================== -->
+    <button
+      type="button"
+      id="musicToggleBtn"
+      aria-label="Toggle Background Music"
+      title="Play / Pause Romantic Chimes"
+      class="fixed bottom-5 right-5 z-50 w-13 h-13 w-[52px] h-[52px] rounded-full bg-[#6d7856] hover:bg-[#5c6647] text-white shadow-xl flex items-center justify-center transition-transform active:scale-95 cursor-pointer border border-white/25"
+    >
+      <!-- Play Icon (Shown when paused) -->
+      <svg id="playIcon" class="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M8 5v14l11-7z" />
+      </svg>
+      <!-- Pause Two-Bar Icon (Matches Mithaq screenshot when playing) -->
+      <svg id="pauseIcon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 24 24">
+        <rect x="6" y="5" width="4" height="14" rx="1" />
+        <rect x="14" y="5" width="4" height="14" rx="1" />
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    (function () {
+      /* -------------------------------------------------------------------
+         1. LIVE COUNTDOWN TO DECEMBER 11, 2026 AT 7:00 PM
+         ------------------------------------------------------------------- */
+      const targetTime = new Date("December 11, 2026 19:00:00").getTime();
+      const elDays = document.getElementById("cdDays");
+      const elHours = document.getElementById("cdHours");
+      const elMins = document.getElementById("cdMins");
+      const elSecs = document.getElementById("cdSecs");
+
+      function updateCountdown() {
+        const now = Date.now();
+        const diff = targetTime - now;
+        if (diff <= 0) {
+          elDays.textContent = "00";
+          elHours.textContent = "00";
+          elMins.textContent = "00";
+          elSecs.textContent = "00";
+          return;
+        }
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const mins = Math.floor((diff / 1000 / 60) % 60);
+        const secs = Math.floor((diff / 1000) % 60);
+
+        elDays.textContent = String(days).padStart(2, "0");
+        elHours.textContent = String(hours).padStart(2, "0");
+        elMins.textContent = String(mins).padStart(2, "0");
+        elSecs.textContent = String(secs).padStart(2, "0");
+      }
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+
+      /* -------------------------------------------------------------------
+         2. SMOOTH SCROLL REVEAL ANIMATIONS
+         ------------------------------------------------------------------- */
+      const revealEls = document.querySelectorAll(".reveal");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 }
+      );
+      revealEls.forEach((el) => observer.observe(el));
+
+      /* -------------------------------------------------------------------
+         3. ROMANTIC WEB AUDIO API PIANO / HARP CHIMES (NO EXTERNAL MP3s)
+         ------------------------------------------------------------------- */
+      let audioCtx = null;
+      let isPlaying = false;
+      let melodyTimer = null;
+      let noteIndex = 0;
+
+      // Gentle romantic arpeggio frequencies (F major 9 / C major 9)
+      const notes = [
+        261.63, 329.63, 392.00, 493.88, 523.25, 493.88, 392.00, 329.63,
+        293.66, 349.23, 440.00, 523.25, 587.33, 523.25, 440.00, 349.23
+      ];
+
+      const musicBtn = document.getElementById("musicToggleBtn");
+      const playIcon = document.getElementById("playIcon");
+      const pauseIcon = document.getElementById("pauseIcon");
+
+      function playChimeNote(freq) {
+        if (!audioCtx) return;
+        const now = audioCtx.currentTime;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(freq, now);
+
+        gain.gain.setValueAtTime(0.0001, now);
+        gain.gain.exponentialRampToValueAtTime(0.045, now + 0.08);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + 2.2);
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start(now);
+        osc.stop(now + 2.25);
+      }
+
+      function startMusic() {
+        try {
+          if (!audioCtx) {
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            audioCtx = new AudioContextClass();
+          }
+          if (audioCtx.state === "suspended") {
+            audioCtx.resume();
+          }
+          isPlaying = true;
+          playIcon.classList.add("hidden");
+          pauseIcon.classList.remove("hidden");
+          musicBtn.classList.add("music-playing");
+
+          playChimeNote(notes[noteIndex % notes.length]);
+          noteIndex++;
+
+          melodyTimer = setInterval(() => {
+            if (!isPlaying) return;
+            playChimeNote(notes[noteIndex % notes.length]);
+            noteIndex++;
+          }, 850);
+        } catch (err) {
+          console.warn("Audio playback blocked until interaction:", err);
+        }
+      }
+
+      function stopMusic() {
+        isPlaying = false;
+        clearInterval(melodyTimer);
+        playIcon.classList.remove("hidden");
+        pauseIcon.classList.add("hidden");
+        musicBtn.classList.remove("music-playing");
+      }
+
+      musicBtn.addEventListener("click", () => {
+        if (isPlaying) {
+          stopMusic();
+        } else {
+          startMusic();
+        }
+      });
+
+      /* -------------------------------------------------------------------
+         4. COUPLE PORTRAIT LOCAL SWAP (OPTIONAL)
+         ------------------------------------------------------------------- */
+      const photoInput = document.getElementById("photoUploadInput");
+      const couplePhoto = document.getElementById("couplePhoto");
+      const svgFallback = document.getElementById("svgPortraitFallback");
+
+      photoInput.addEventListener("change", (e) => {
+        const file = e.target.files && e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+          couplePhoto.src = ev.target.result;
+          couplePhoto.style.display = "block";
+          svgFallback.classList.add("hidden");
+        };
+        reader.readAsDataURL(file);
+      });
+
+      /* -------------------------------------------------------------------
+         5. RSVP FORM SUBMISSION (WHATSAPP + INLINE CONFIRMATION)
+         ------------------------------------------------------------------- */
+      const rsvpForm = document.getElementById("rsvpForm");
+      const rsvpToast = document.getElementById("rsvpToast");
+
+      rsvpForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("guestName").value.trim();
+        const count = document.getElementById("guestCount").value;
+        const status = document.getElementById("attendingStatus").value;
+
+        if (!name) return;
+
+        const message = encodeURIComponent(
+          `Hello Osama & Mariem! ✨\nRSVP for your Engagement (11.12.2026):\n• Name: ${name}\n• Guests: ${count}\n• Status: ${status}`
+        );
+
+        rsvpToast.textContent = `Thank you, ${name}! Your RSVP (${status} — ${count}) is ready to send.`;
+        rsvpToast.classList.remove("hidden");
+
+        // Opens WhatsApp pre-filled message sheet
+        window.open(`https://wa.me/?text=${message}`, "_blank", "noopener");
+      });
+
+      /* -------------------------------------------------------------------
+         6. CLEAN STANDALONE DOWNLOAD FOR GITHUB PAGES
+         ------------------------------------------------------------------- */
+      const downloadBtn = document.getElementById("downloadHtmlBtn");
+      const downloadToast = document.getElementById("downloadToast");
+
+      downloadBtn.addEventListener("click", () => {
+        try {
+          const clone = document.documentElement.cloneNode(true);
+          // Remove export helper UI from downloaded GitHub production file
+          clone.querySelectorAll(".no-export").forEach((el) => el.remove());
+          const htmlOutput = "<!DOCTYPE html>\n" + clone.outerHTML;
+
+          const blob = new Blob([htmlOutput], { type: "text/html;charset=utf-8" });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "index.html";
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+
+          downloadToast.textContent = "Saved index.html! Upload it to your GitHub repository.";
+          downloadToast.classList.remove("hidden");
+        } catch (err) {
+          downloadToast.textContent = "Copy the HTML code from the editor and save it as index.html.";
+          downloadToast.classList.remove("hidden");
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
